@@ -91,9 +91,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5e33bc1c733ce4b8b01d5d1858262f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackButton: {fileID: 114000014218675436}
-  statsPanel: {fileID: 224000010324349074}
-  character: {fileID: 0}
+  _statElementPrefab: {fileID: -5996786697040342980, guid: 77a89dfebc586d241992ad32394d6699,
+    type: 3}
+  _attackButton: {fileID: 114000014218675436}
+  _statsPanelRoot: {fileID: 224000010324349074}
+  _player: {fileID: 0}
 --- !u!1 &1000011019240126
 GameObject:
   m_ObjectHideFlags: 0
